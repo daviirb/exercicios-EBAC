@@ -31,7 +31,6 @@ const listaAlunos = [
 
 filtraAlunos = (listaAlunos) => listaAlunos.nota >= 6
 
-
 const novaLista = listaAlunos.filter(filtraAlunos)
 
 console.log(novaLista)
