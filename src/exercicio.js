@@ -29,9 +29,8 @@ const listaAlunos = [
   }
 ]
 
-function filtraAlunos(listaAlunos) {
-  return listaAlunos.nota >= 6;
-}
+filtraAlunos = (listaAlunos) => listaAlunos.nota >= 6
+
 
 const novaLista = listaAlunos.filter(filtraAlunos)
 
